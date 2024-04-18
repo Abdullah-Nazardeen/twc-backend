@@ -8,7 +8,7 @@ app.use(express.json());
 
 app.use(
   cors({
-    origin: process.env.CORS_URL,
+    origin: '*',
     credentials: true,
   })
 );
