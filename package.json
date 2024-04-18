@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "build": "npm install && npm run build",
+    "build": "npm install && npm run compile",
+    "compile": "tsc",
     "start": "ts-node src/index.ts",
     "dev": "nodemon --exec ts-node src/index.ts"
   },
